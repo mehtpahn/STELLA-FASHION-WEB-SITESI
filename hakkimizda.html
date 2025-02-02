@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stella Fashion | Kadın Giyim</title>
+<link href="hakkimizda.css" rel="stylesheet" type="text/css">
+</head>
+	<div class="banner" >
+		<tittle class="scrolling-text"> VERİLEN TÜM SİPARİŞLERİNİZ AYNI GÜN KARGODA ! </tittle>
+	</div>
+	<body>
+	<div class="ust-menu">
+      
+        <div class="logo">
+            <img src="logo.jpg" alt="Stella Fashion">
+        </div>
+
+       
+        <div class="arama">
+            <input type="text" placeholder="Aramak istediğiniz ürünü yazın...">
+            <button>Ara</button>
+        </div>
+		
+        <div class="uye-ve-favoriler">
+            <div class="uye-giris">Giriş Yap</div>
+            <div class="uye-kaydi">Üye Ol</div>
+
+            
+            <div class="favoriler">
+                <img src="favoriler.jpg" alt="Favoriler" class="favori-resim">
+            </div>
+        </div>
+
+        
+        <div class="sepet">
+            <img src="sepet.jpg" alt="Sepet" class="sepet-resim"> Sepetim
+        </div>
+    </div>
+	
+    <div class="kategori-menu">
+		<a href="#menu" class="kategori">MENÜ</a>
+		<a href="index.html" class="kategori">ANASAYFA</a>
+        <a href="üçüncü.html" class="kategori">YENİ SEZON</a>
+        <a href="dördünncü.html" class="kategori">FIRSAT ÜRÜNLER</a>
+        <a href="beşinci.html" class="kategori">ÇOK SATANLAR</a>
+        <a href="altıncı.html" class="kategori">İNDİRİM</a>
+		<a href="yedinci.html" class="kategori">KOMBİN ÖNERİLERİ</a> 
+	</div>
+		
+		
+    <div class="hakkimizda-container">
+        <h2 class="hakkimizda-baslik">HAKKIMIZDA</h2>
+        <div class="hakkimizda-icerik">
+            <div class="hakkimizda-sol">
+                <p>Stella Fashion, 2017 yılında, sadece bir giyim markası olma amacını aşarak, bir yaşam tarzı, bir ifade biçimi haline gelmek için yola çıktı. O günden bugüne, her bir koleksiyonumuz, kadınların zarafetini, gücünü ve özgürlüğünü simgeleyen birer sanat eserine dönüştü. Moda, bizim için sadece bir trend değil, duyguları, anıları ve hayalleri biçimlendiren bir yolculuktur.</p>
+                <p>Her parça, titizlikle tasarlanmış, özgün ve yenilikçi bir bakış açısının ürünü. Gömleklerin, eteklerin, elbiselerin her dikişinde, bir kadının kendisini en güzel haliyle ifade edebilmesi için dokunan bir sihir var. Stella Fashion, her zaman kadının içindeki özgürlüğü ve gücü kutlamıştır; çünkü biz, her kadının benzersiz olduğunu ve stilinin de bu benzersizliğini yansıttığını biliyoruz.</p>
+				<p>Modayı bir tutku, bir yaşam biçimi olarak benimseyen bizler, 2017’de başladığımız bu yolculukta, sadece estetikle değil, kaliteli materyallerle, mükemmel işçilikle ve her adımda müşteri memnuniyetini en ön planda tutarak büyüdük. Moda dünyasına adım attığımız günden itibaren, hayal ettiğimizden çok daha fazlasını başardık: Stella Fashion, her kadının kendini en güzel, en rahat ve en özgür hissettiği markaya dönüştü.</p>
+				<p>Stella Fashion, 2017’den beri, sadece bir markanın ötesine geçerek, her kadının içindeki yıldızın parlamasını sağlamak için var. Modaya dair tek bir çizgi değil, bir hikaye yazıyoruz. Ve bu hikaye, her kadının hayatına dokunuyor, her kadının stilinde bir iz bırakıyor. Stella Fashion ile stilinizdeki ışıltıyı keşfedin. Çünkü her kadının içinde bir yıldız vardır, ve biz o yıldızı sizlerle parlatmak için buradayız.</p>
+            </div>
+            <div class="hakkimizda-sag">
+                <img src="dörtlü.png" alt="Stella Fashion Hakkımızda Görseli" class="hakkimizda-gorsel">
+            </div>
+        </div>
+    </div>
+		
+		
+    <div class="kurulus-sahipleri">
+        <h2 class="kurulus-baslik">Kuruluş Sahipleri</h2>
+        <div class="sahipler">
+            <div class="sahip">
+                <img src="GİZEM SEVDE.jpg" alt="Sahip 1" class="sahip-foto">
+                <p class="sahip-isim">Gizem Sevde</p>
+                <p class="sahip-aciklama">Kurucu ve CEO</p>
+            </div>
+            <div class="sahip">
+                <img src="BERKE TEKE.jpg" alt="Sahip 2" class="sahip-foto">
+                <p class="sahip-isim">Berke Teke</p>
+                <p class="sahip-aciklama">Kurucu Ortak ve Yaratıcı Direktör</p>
+            </div>
+            <div class="sahip">
+                <img src="CEMRE KARTAL.jpg" alt="Sahip 3" class="sahip-foto">
+                <p class="sahip-isim">Cemre Kartal</p>
+                <p class="sahip-aciklama">Kurucu Ortak ve Satın Alma Müdürü</p>
+            </div>
+        </div>
+    </div>
+	
+    <a href="#" id="scroll-to-top" class="scroll-to-top">
+        ↑
+    </a>
+
+    <script>
+        
+        document.getElementById("scroll-to-top").addEventListener("click", function(event) {
+            event.preventDefault();  
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'  
+            });
+        });
+
+        
+        window.addEventListener("scroll", function() {
+            var scrollToTopButton = document.getElementById("scroll-to-top");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopButton.style.display = "block"; 
+            } else {
+                scrollToTopButton.style.display = "none"; 
+            }
+        });
+    </script>
+		
+    <footer>
+        <div class="footer-container">
+            
+            <div class="footer-section">
+                <h3>KURUMSAL</h3>
+                <ul>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    <li><a href="#">Kariyer</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="footer-section">
+                <h3>MÜŞTERİ İLİŞKİLERİ</h3>
+                <ul>
+                    <li><a href="#">Siparişlerim</a></li>
+                    <li><a href="#">Gizlilik ve Güvenlik</a></li>
+                    <li><a href="#">Teslimat Bilgileri</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="footer-section">
+                <h3>YARDIM</h3>
+                <ul>
+                    <li><a href="#">İade ve Değişim</a></li>
+                    <li><a href="#">Sıkça Sorulan Sorular</a></li>
+                    <li><a href="#">Destek</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="footer-section">
+                <h3>İLETİŞİM</h3>
+                <ul>
+                    <li><a href="mailto:info@stellafashion.com">stellafashion@gmail.com</a></li>
+                    <li><a href="tel:+900123456789">+90 555 203 3544</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

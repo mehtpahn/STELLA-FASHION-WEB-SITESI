@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stella Fashion | Kadın Giyim</title>
+<link href="sepeticin.css" rel="stylesheet" type="text/css">
+</head>
+	<div class="banner" >
+		<tittle class="scrolling-text"> VERİLEN TÜM SİPARİŞLERİNİZ AYNI GÜN KARGODA ! </tittle>
+	</div>
+	<body>
+	<div class="ust-menu">
+       
+        <div class="logo">
+            <img src="logo.jpg" alt="Stella Fashion">
+        </div>
+
+        
+        <div class="arama">
+            <input type="text" placeholder="Aramak istediğiniz ürünü yazın...">
+            <button>Ara</button>
+        </div>
+		
+        <div class="uye-ve-favoriler">
+            <div class="uye-giris">Giriş Yap</div>
+            <div class="uye-kaydi">Üye Ol</div>
+
+            
+            <div class="favoriler">
+                <img src="favoriler.jpg" alt="Favoriler" class="favori-resim">
+            </div>
+        </div>
+
+        
+        <div class="sepet">
+            <img src="sepet.jpg" alt="Sepet" class="sepet-resim"> Sepetim
+        </div>
+    </div>
+	
+    <div class="kategori-menu">
+		<a href="#menu" class="kategori">MENÜ</a>
+		<a href="index.html" class="kategori">ANASAYFA</a> 
+        <a href="üçüncü.html" class="kategori">YENİ SEZON</a>
+        <a href="dördünncü.html" class="kategori">FIRSAT ÜRÜNLER</a>
+        <a href="beşinci.html" class="kategori">ÇOK SATANLAR</a>
+        <a href="altıncı.html" class="kategori">İNDİRİM</a>
+		<a href="yedinci.html" class="kategori">KOMBİN ÖNERİLERİ</a> 
+	</div>
+		
+	<div class="urun-detaylari">
+		
+		<div class="urun-resimler">
+			<div class="resimler-kaydir">
+				<img src="sepetekle.jpg" alt="Ürün 1" class="urun-resim">
+				<img src="sepeteklee.jpg" alt="Ürün 2" class="urun-resim">
+			</div>
+		</div>
+
+		
+		<div class="urun-bilgileri">
+			<h2 class="urun-baslik">YENİ SEZON KÜRK</h2>
+			<p class="urun-kodu">Ürün Kodu: S-5204-15</p>
+
+			
+			<div class="beden-tablosu">
+				<div class="beden" id="beden-34">34</div>
+				<div class="beden" id="beden-36">36</div>
+				<div class="beden" id="beden-38">38</div>
+				<div class="beden" id="beden-40">40</div>
+				<div class="beden" id="beden-42">42</div>
+			</div>
+			
+
+			
+			<div class="renk-paneli">
+				<img src="kahverengisepet.jpg" alt="Renk 1" class="renk-resmi">
+				<img src="antsepet.jpg" alt="Renk 2" class="renk-resmi">
+				<img src="beyazsepet.jpg" alt="Renk 3" class="renk-resmi">
+			</div>
+
+			
+			<div class="secenekler">
+				<button class="sepete-ekle">Sepete Ekle</button>
+				<div class="favoriler">
+					<img src="favoriler.jpg" alt="Favoriler" class="favori-resim">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+		
+        <div class="yorumlar">
+            <h3>YORUMLAR</h3>
+
+            <div class="yorum">
+                <p class="yorum-yazan"><strong>Mehtap Melike Ş.</strong> - 5 yıldız</p>
+                <p class="yorum-icerik">Ürün harika! Tam bedenim oldu ve çok rahat. Kesinlikle tavsiye ederim.</p>
+            </div>
+
+            
+            <div class="yorum">
+                <p class="yorum-yazan"><strong>Tolga K.</strong> - 4 yıldız</p>
+                <p class="yorum-icerik">Kız arkadaşım için aldım, çok beğendi. Yanındaki küçük hediyeler için teşekkür ederiz.</p>
+            </div>
+
+           
+            <div class="yorum">
+                <p class="yorum-yazan"><strong>Eftalya A.</strong> - 5 yıldız</p>
+                <p class="yorum-icerik">Tasarımı çok beğendim. Kumaşı oldukça kaliteli, gönül rahatlığıyla alabilirsiniz.</p>
+            </div>
+
+            
+            <div class="yorum">
+                <p class="yorum-yazan"><strong>Nil H.</strong> - 4.5 yıldız</p>
+                <p class="yorum-icerik">Bir beden küçük alın, oversize bir ürün zaten. Değiştirip bir beden küçük alacağım.</p>
+            </div>
+        </div>
+    
+		
+
+    <a href="#" id="scroll-to-top" class="scroll-to-top">
+        ↑
+    </a>
+
+    <script>
+        
+        document.getElementById("scroll-to-top").addEventListener("click", function(event) {
+            event.preventDefault();  
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'  
+            });
+        });
+
+        window.addEventListener("scroll", function() {
+            var scrollToTopButton = document.getElementById("scroll-to-top");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopButton.style.display = "block";  
+            } else {
+                scrollToTopButton.style.display = "none";  
+            }
+        });
+    </script>
+	
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>KURUMSAL</h3>
+                <ul>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    <li><a href="#">Kariyer</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>MÜŞTERİ İLİŞKİLERİ</h3>
+                <ul>
+                    <li><a href="#">Siparişlerim</a></li>
+                    <li><a href="#">Gizlilik ve Güvenlik</a></li>
+                    <li><a href="#">Teslimat Bilgileri</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>YARDIM</h3>
+                <ul>
+                    <li><a href="#">İade ve Değişim</a></li>
+                    <li><a href="#">Sıkça Sorulan Sorular</a></li>
+                    <li><a href="#">Destek</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>İLETİŞİM</h3>
+                <ul>
+                    <li><a href="mailto:info@stellafashion.com">stellafashion@gmail.com</a></li>
+                    <li><a href="tel:+900123456789">+90 555 203 3544</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

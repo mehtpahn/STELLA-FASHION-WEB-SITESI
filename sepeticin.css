@@ -1,0 +1,733 @@
+@charset "utf-8";
+.anacerceve{
+	
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Times New Roman', serif; 
+}
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 100; 
+}
+
+
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-text 10s linear infinite;
+    font-size: 20px;
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.ust-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #f4f4f4; 
+    padding: 10px 20px;
+    margin-top: 60px; 
+    z-index: 998;
+}
+
+
+.ust-menu .logo img {
+    height: 100px; 
+	width: auto;
+	border-radius: 10px; 
+}
+.kategori-menu .kategori:first-child {
+    font-weight: bold; 
+    color: #660000; 
+}
+
+.ust-menu .arama {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.ust-menu .arama input[type="text"] {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+.ust-menu .arama button {
+    padding: 8px 15px;
+    background-color: #800000; 
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ust-menu .arama button:hover {
+    background-color: #660000; 
+}
+
+.ust-menu .uye-ve-favoriler {
+    display: flex;
+    align-items: center;
+}
+
+.ust-menu .uye-giris,
+.ust-menu .uye-kaydi {
+    margin-right: 20px; 
+    font-size: 16px;
+    cursor: pointer;
+    color: #800000;
+}
+
+.ust-menu .favoriler {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ust-menu .favoriler img {
+    width: 50px; 
+    height: auto;
+	border-radius: 50%;
+}
+
+.ust-menu .sepet {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #800000;
+    cursor: pointer;
+}
+
+.ust-menu .sepet-resim {
+    width: 50px;  
+    height: auto;
+    margin-right: 8px; 
+}
+
+.kategori-menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4; 
+    padding: 15px 0;
+    border-top: 2px solid #ddd; 
+}
+
+.kategori-menu .kategori {
+    text-decoration: none;
+    font-size: 16px;
+    color: #800000; 
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.kategori-menu .kategori:hover {
+    background-color: #800000; 
+    color: white; 
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Times New Roman', serif;
+}
+
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 100;
+}
+
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-text 10s linear infinite;
+    font-size: 20px;
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.ust-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    margin-top: 60px;
+    z-index: 998;
+}
+
+.ust-menu .logo img {
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.ust-menu .arama {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.ust-menu .arama input[type="text"] {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+.ust-menu .arama button {
+    padding: 8px 15px;
+    background-color: #800000;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ust-menu .arama button:hover {
+    background-color: #660000;
+}
+
+.ust-menu .uye-ve-favoriler {
+    display: flex;
+    align-items: center;
+}
+
+.ust-menu .uye-giris,
+.ust-menu .uye-kaydi {
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #800000;
+}
+
+.ust-menu .favoriler {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ust-menu .favoriler img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.ust-menu .sepet {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #800000;
+    cursor: pointer;
+}
+
+.ust-menu .sepet-resim {
+    width: 50px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 100;
+}
+
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-text 10s linear infinite;
+    font-size: 20px;
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.urun-detaylari {
+    display: flex;
+    padding: 20px;
+}
+
+.urun-resimler {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.resimler-kaydir {
+    display: flex;
+    overflow-x: auto;
+}
+
+.urun-resim {
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+    object-fit: cover;
+	border-radius: 15px; 
+}
+
+.urun-bilgileri {
+    width: 50%;
+}
+
+.urun-baslik {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.urun-kodu {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.beden-tablosu {
+    display: flex;
+    margin-top: 20px;
+}
+
+.beden {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #800000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.beden:hover {
+    background-color: #800000;
+    color: white;
+}
+
+
+.renk-paneli {
+    display: flex;
+    margin-top: 20px;
+}
+
+.renk-resmi {
+    width: 110px;
+    height: 110px;
+    margin-right: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.secenekler {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sepete-ekle {
+    background-color: #800000;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.sepete-ekle:hover {
+    background-color: #660000;
+}
+
+.favoriler {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.favori-resim {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.yorumlar {
+    margin-top: 30px; 
+	padding-left: 20px; 
+}
+
+.yorumlar h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #800000;
+}
+
+.yorum {
+    border-top: 1px solid #ddd; 
+    padding: 10px 0;
+}
+
+.yorum-yazan {
+    font-size: 16px;
+    color: #800000;
+    margin-bottom: 5px;
+}
+
+.yorum-icerik {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.yorum:hover {
+    background-color: #f9f9f9;
+}
+
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;  
+    right: 20px;  
+    width: 50px;  
+    height: 50px;  
+    background-color: rgba(0, 0, 0, 0.5);  
+    color: white;  
+    font-size: 30px;  
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    text-decoration: none; 
+    opacity: 0.7; 
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.scroll-to-top:hover {
+    opacity: 1;  
+}
+
+.scroll-to-top {
+    display: none;
+}
+
+
+footer {
+    background-color: #800000;
+    color: white;
+    padding: 40px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.spacer {
+    height: 50px; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center; 
+        margin-bottom: 15px; 
+    }
+
+    .footer-section ul li a {
+        font-size: 16px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    
+    .banner {
+        padding: 10px 0;
+    }
+
+    .scrolling-text {
+        font-size: 16px;
+        animation: scroll-text 15s linear infinite; 
+    }
+
+    
+    .ust-menu {
+        flex-direction: column; 
+        align-items: center;
+        padding: 10px;
+    }
+
+    .ust-menu .arama {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .ust-menu .arama input[type="text"] {
+        width: 70%;
+        margin-right: 10px;
+    }
+
+    .ust-menu .arama button {
+        width: 30%;
+        margin-top: 5px;
+    }
+
+    .ust-menu .sepet,
+    .ust-menu .favoriler {
+        margin-top: 10px;
+    }
+
+    .ust-menu .logo img {
+        height: 80px; 
+    }
+
+    
+    .kategori-menu {
+        flex-direction: column; 
+        padding: 20px 0;
+    }
+
+    .kategori-menu .kategori {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 5px;
+    }
+
+    .urun-detaylari {
+        flex-direction: column; 
+    }
+
+    .urun-resimler,
+    .urun-bilgileri {
+        width: 100%;
+        padding: 0;
+    }
+
+    .urun-resimler {
+        margin-bottom: 20px;
+    }
+
+    .urun-resim {
+        width: 90%; 
+        margin: 0 auto;
+    }
+
+  
+    .beden-tablosu {
+        flex-wrap: wrap; 
+    }
+
+    .beden {
+        width: 30%;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+ 
+    .renk-paneli {
+        flex-wrap: wrap; 
+    }
+
+    .renk-resmi {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
+  
+    .secenekler {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sepete-ekle {
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+
+    
+    .yorumlar {
+        padding-left: 10px;
+    }
+
+    .yorumlar h3 {
+        font-size: 24px;
+    }
+
+    .yorum-yazan,
+    .yorum-icerik {
+        font-size: 14px;
+    }
+
+   
+    .scroll-to-top {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .ust-menu {
+        padding: 8px;
+    }
+
+    .ust-menu .arama input[type="text"] {
+        font-size: 14px;
+    }
+
+    .ust-menu .arama button {
+        font-size: 14px;
+    }
+
+    .ust-menu .logo img {
+        height: 60px; 
+    }
+
+    
+    .kategori-menu .kategori {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    
+    .urun-baslik {
+        font-size: 22px;
+    }
+
+    .urun-kodu {
+        font-size: 14px;
+    }
+
+  
+    .beden {
+        width: 40%;
+    }
+
+    
+    .sepete-ekle {
+        padding: 15px 20px;
+    }
+
+   
+    footer {
+        padding: 20px 0;
+    }
+
+    .footer-section h3 {
+        font-size: 16px;
+    }
+
+    .footer-section ul li a {
+        font-size: 12px;
+    }
+}
+
